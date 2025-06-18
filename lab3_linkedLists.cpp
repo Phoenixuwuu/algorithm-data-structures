@@ -1,3 +1,10 @@
+/*
+id: 24006779
+name: Aniq Haikal
+contact: 0163906960
+email: aniqhaikalsaharuddin@gmail.com
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -72,6 +79,8 @@ public:
         }
         cout << "NULL" << endl;
     }
+
+    // Destructor to free memory 
 
     ~LinkedList() {
         Node* curr = head;
